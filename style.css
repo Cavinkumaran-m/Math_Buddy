@@ -23,7 +23,7 @@ body {
 
 .Navbar img {
     float: left;
-
+}
 
 .Navbar a:hover {
     background-color: rgb(202, 255, 203);
