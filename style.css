@@ -23,8 +23,6 @@ body {
 
 .Navbar img {
     float: left;
-<<<<<<< HEAD
-=======
     border-radius: 50%;
     max-width: 40px;
     max-height: 40px;
@@ -41,7 +39,6 @@ body {
     text-align: center;
     padding: 14px;
     text-transform: uppercase;
->>>>>>> 834c63793c7ef03c74772b8864223cd967fcc92f
 }
 
 .Navbar a:hover {
