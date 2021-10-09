@@ -1,0 +1,25 @@
+body{
+    background-color: rgb(202,255,203);
+    margin: 0;
+}
+
+.nav_links {    
+    padding: 0;
+    margin: auto;
+    text-decoration: none;
+    list-style-type: none;
+    overflow: hidden;
+    background-color: rgb(93, 218, 93);
+}
+
+.navigation{
+    float: left;
+    padding: 15px;
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+.navigation:hover{
+    background-color: rgb(48, 114, 48);
+}
