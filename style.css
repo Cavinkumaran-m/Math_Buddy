@@ -1,0 +1,49 @@
+html {
+    background-color: rgb(202, 255, 203);
+}
+
+body {
+    margin:0;
+    padding: 0;
+}
+
+
+
+.Navbar {
+    background-color:  rgb(93, 218, 93);
+    margin: 0;
+    padding: 0%;
+    overflow: hidden;
+}
+
+.Navbar li {
+    list-style: none;
+    float: right;
+}
+
+.Navbar img {
+    float: left;
+    border-radius: 50%;
+    max-width: 40px;
+    max-height: 40px;
+    padding: 4px;
+}
+
+.Navbar a {
+    display: block;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: white;
+    min-height: 16px;
+    text-align: center;
+    padding: 14px;
+    text-transform: uppercase;
+}
+
+.Navbar a:hover {
+    background-color: rgb(202, 255, 203);
+    color: white;
+}
+
+
