@@ -23,23 +23,7 @@ body {
 
 .Navbar img {
     float: left;
-    border-radius: 50%;
-    max-width: 40px;
-    max-height: 40px;
-    padding: 4px;
-}
 
-.Navbar a {
-    display: block;
-    text-decoration: none;
-    font-family: sans-serif;
-    font-weight: bold;
-    color: white;
-    min-height: 16px;
-    text-align: center;
-    padding: 14px;
-    text-transform: uppercase;
-}
 
 .Navbar a:hover {
     background-color: rgb(202, 255, 203);
