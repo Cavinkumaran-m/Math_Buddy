@@ -9,7 +9,8 @@
 
         body{
             font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            background-color: rgba(0, 0, 0, 0.103);
+            background-color: rgb(202, 255, 203);
+            margin: 0;
         }
 
         * {
@@ -62,12 +63,95 @@
             height: 5em;
 
         }
+        .Navbar {
+            background-color:  rgb(93, 218, 93);
+            margin:  0 0 5em 0;
+            padding: 0%;
+            overflow: hidden;
+        }
+
+        .Navbar li {
+            list-style: none;
+            float: right;
+        }
+
+        .Navbar img {
+            float: left;
+            border-radius: 50%;
+            max-width: 40px;
+            max-height: 40px;
+            padding: 4px;
+        }
+
+        .Navbar a {
+            display: block;
+            text-decoration: none;
+            font-family: sans-serif;
+            font-weight: bold;
+            color: white;
+            min-height: 16px;
+            text-align: center;
+            padding: 14px;
+            text-transform: uppercase;
+        }
+
+        .Navbar a:hover {
+            background-color: rgb(202, 255, 203);
+            color: white;
+        }
+
+        .Content_box {
+            text-align: center;
+        }
+
+        .Content_box ul {
+            list-style: none;
+            display: inline-block;
+            text-align: center;
+            color: rgb(93, 218, 93);
+        }
+
+        .Head h1 {
+            color: rgb(93, 218, 93);
+            text-align: center;
+            font-size: 2cm;
+            margin-bottom: 0;
+            margin-top: 10px;
+            font-family: cursive;
+            
+        }
+        .Content_box img {
+            max-width: 350px;
+        }
+
+        .Start_butt{
+            text-align: center;
+        }
+
+        .Start_butt a {
+            background-color: rgb(93, 218, 93);
+            text-decoration: none;
+            color: white;
+            padding: 10px;
+            border-radius: 10%;
+        }
+
 
     </style>
 </head>
 <body>
+    <nav>
+        <ul class="Navbar">
+            <li><a href="register.html">Register</a></li>
+            <li><a href="#">Sign In</a></li>
+            <li><a href="#">Donate</a></li>
+            <li><a href="#">Leaderboard</a></li>
+            <img src="Images/Logo.png" alt="Logo">
+        </ul>
+    </nav>
     <form action="">
         <div class="container">
+            
             <img src="Images/Logo.png" alt="Logo">
             <h1>Register</h1>
             <p>Please fill in this form to create an account</p>
