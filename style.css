@@ -32,13 +32,13 @@ div {
 .Navbar img {
     float: left;
     border-radius: 50%;
-    max-width: 40px;
-    max-height: 40px;
+    max-width: 48px;
+    max-height: 48px;
     padding: 4px;
 }
 
 .Navbar a {
-    display: block;
+    display: inline-block;
     text-decoration: none;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: bold;
@@ -49,11 +49,15 @@ div {
     text-transform: uppercase;
 }
 
-.Navbar a:hover {
+
+.Navbar a:hover:not(.Logo) {
     background-color: rgb(202, 255, 203);
     color: white;
 }
 
+.Spacing {
+    padding: 2%;
+}
 .Content_box {
     text-align: center;
 }
@@ -65,15 +69,7 @@ div {
     color: rgb(93, 218, 93);
 }
 
-.Head h1 {
-    color: rgb(93, 218, 93);
-    text-align: center;
-    font-size: 2cm;
-    margin-bottom: 0;
-    margin-top: 10px;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    
-}
+
 .Content_box img {
     max-width: 350px;
 }
@@ -109,7 +105,3 @@ button {
     margin: 20px;
 
 }
-
-
-
-
