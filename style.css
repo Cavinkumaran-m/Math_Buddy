@@ -2,7 +2,7 @@
     box-sizing: border-box;
 }
 html {
-    background-color: rgb(202, 255, 203);
+    background-color: rgb(255, 255, 255);
 }
 
 body {
@@ -18,7 +18,7 @@ div {
 
 
 .Navbar {
-    background-color:  rgb(93, 218, 93);
+    background-color:  rgb(0, 0, 0);
     margin: 0;
     padding: 0%;
     overflow: hidden;
@@ -32,15 +32,15 @@ div {
 .Navbar img {
     float: left;
     border-radius: 50%;
-    max-width: 40px;
-    max-height: 40px;
+    max-width: 48px;
+    max-height: 48px;
     padding: 4px;
 }
 
 .Navbar a {
-    display: block;
+    display: inline-block;
     text-decoration: none;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family:sans-serif;
     font-weight: bold;
     color: white;
     min-height: 16px;
@@ -49,46 +49,60 @@ div {
     text-transform: uppercase;
 }
 
-.Navbar a:hover {
-    background-color: rgb(202, 255, 203);
-    color: white;
+
+.Navbar a:hover:not(.Logo) {
+    background-color: rgb(255, 255, 255);
+    color: black;
 }
 
+.Spacing {
+    padding: 2%;
+}
 .Content_box {
     text-align: center;
 }
+
 
 .Content_box ul {
     list-style: none;
     display: inline-block;
     text-align: center;
-    color: rgb(93, 218, 93);
+    color: rgb(0, 0, 0);
+    border: 5px solid black;
+    padding:0;
+    margin: 2%;
+    border-radius: 10%;
+    transition: background-color 2s, color 2s;
 }
 
-.Head h1 {
-    color: rgb(93, 218, 93);
-    text-align: center;
-    font-size: 2cm;
-    margin-bottom: 0;
-    margin-top: 10px;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    
+.Content_box ul:hover {
+    background-color: black;
+    color: white;
 }
+
+
 .Content_box img {
     max-width: 350px;
 }
 
 .Start_butt{
+    margin-top: 2%;
     text-align: center;
 }
 
 .Start_butt a {
-    background-color: rgb(93, 218, 93);
+    background-color: rgb(0, 0, 0);
     text-decoration: none;
     color: white;
     padding: 10px;
-    border-radius: 10%;
+    border-radius: 5%;
 }
+
+.Start_butt a:hover {
+    background-color: whitesmoke;
+    color: black;
+}
+
 
 .difficulties {
     list-style-type: none;
@@ -109,7 +123,3 @@ button {
     margin: 20px;
 
 }
-
-
-
-
