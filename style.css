@@ -9,6 +9,7 @@ html {
 body {
     margin:0;
     padding: 0;
+    justify-content: center;
 }
 
 .Navbar {
@@ -68,7 +69,7 @@ body {
     padding:0;
     margin: 2%;
     border-radius: 10%;
-    transition: background-color 2s, color 2s;
+    transition: background-color .75s, color .75s;
 }
 
 .Content_box ul:hover {
@@ -94,28 +95,26 @@ body {
     border-radius: 10%;
 }
 
-.Start_butt a:hover {
-    background-color: whitesmoke;
-    color: black;
-    border: 1px solid black;
+.Start_butt a:hover, button:hover {
+    background-color: black;
+    color: rgb(255, 255, 255);
+    padding: .9em;
 }
 
 
 .difficulties {
     list-style-type: none;
-    display: none;
-    margin: 0;
+    display: flex;
     padding: 0;
-    position: absolute;
-    left: 40%;
+
 }
 
 button {
-    background-color: rgb(93, 218, 93);
+    background-color: black;
     color: white;
     font-size: large;
     border: 0;
-    padding: 10px;
+    padding: 1em;
     border-radius: 10%;
     margin: 20px;
 
