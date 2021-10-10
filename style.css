@@ -1,5 +1,6 @@
 *{
     box-sizing: border-box;
+    font-family: itim;
 }
 html {
     background-color: rgb(255, 255, 255);
@@ -9,13 +10,6 @@ body {
     margin:0;
     padding: 0;
 }
-
-
-div {
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-
-
 
 .Navbar {
     background-color:  rgb(0, 0, 0);
@@ -47,6 +41,7 @@ div {
     text-align: center;
     padding: 14px;
     text-transform: uppercase;
+    font-family: itim;
 }
 
 
@@ -60,6 +55,7 @@ div {
 }
 .Content_box {
     text-align: center;
+    margin-top: 2%;
 }
 
 
@@ -94,13 +90,14 @@ div {
     background-color: rgb(0, 0, 0);
     text-decoration: none;
     color: white;
-    padding: 10px;
-    border-radius: 5%;
+    padding: 1em;
+    border-radius: 10%;
 }
 
 .Start_butt a:hover {
     background-color: whitesmoke;
     color: black;
+    border: 1px solid black;
 }
 
 
