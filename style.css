@@ -72,6 +72,12 @@ div {
     padding:0;
     margin: 2%;
     border-radius: 10%;
+    transition: background-color 2s, color 2s;
+}
+
+.Content_box ul:hover {
+    background-color: black;
+    color: white;
 }
 
 
@@ -91,6 +97,12 @@ div {
     padding: 10px;
     border-radius: 5%;
 }
+
+.Start_butt a:hover {
+    background-color: whitesmoke;
+    color: black;
+}
+
 
 .difficulties {
     list-style-type: none;
