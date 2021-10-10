@@ -1,0 +1,9 @@
+body { 
+    font-family: itim;
+    margin: 0;
+    padding: 0;
+}
+
+.difficulty {
+    font-size: 3em;
+}
