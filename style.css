@@ -40,7 +40,7 @@ div {
 .Navbar a {
     display: inline-block;
     text-decoration: none;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family:sans-serif;
     font-weight: bold;
     color: white;
     min-height: 16px;
