@@ -1,3 +1,6 @@
+*{
+    box-sizing: border-box;
+}
 html {
     background-color: rgb(202, 255, 203);
 }
@@ -5,6 +8,11 @@ html {
 body {
     margin:0;
     padding: 0;
+}
+
+
+div {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 
@@ -32,7 +40,7 @@ body {
 .Navbar a {
     display: block;
     text-decoration: none;
-    font-family: sans-serif;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: bold;
     color: white;
     min-height: 16px;
@@ -63,7 +71,7 @@ body {
     font-size: 2cm;
     margin-bottom: 0;
     margin-top: 10px;
-    font-family: cursive;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     
 }
 .Content_box img {
@@ -81,5 +89,27 @@ body {
     padding: 10px;
     border-radius: 10%;
 }
+
+.difficulties {
+    list-style-type: none;
+    display: none;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    left: 40%;
+}
+
+button {
+    background-color: rgb(93, 218, 93);
+    color: white;
+    font-size: large;
+    border: 0;
+    padding: 10px;
+    border-radius: 10%;
+    margin: 20px;
+
+}
+
+
 
 
