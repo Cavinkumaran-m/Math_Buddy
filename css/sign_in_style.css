@@ -1,0 +1,15 @@
+*{
+    box-sizing: border-box;
+}
+html {
+    background-color: white;
+    background-image: url("../Images/wallpaper.jpg");
+    background-size: cover;
+}
+
+body {
+    margin:0;
+    padding: 0;
+    
+}
+
