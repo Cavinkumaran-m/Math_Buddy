@@ -57,7 +57,7 @@ img {
 
 .Navbar {
     background-color: rgb(0, 0, 0);
-    margin: 0 0 5em 0;
+    margin:0;
     padding: 0%;
     overflow: hidden;
 }
@@ -90,19 +90,4 @@ img {
 .Navbar a:hover:not(.Logo) {
     background-color: rgb(255, 255, 255);
     color: black;
-}
-
-.Content_box {
-    text-align: center;
-}
-
-.Content_box ul {
-    list-style: none;
-    display: inline-block;
-    text-align: center;
-    color: rgb(93, 218, 93);
-}
-
-.Content_box img {
-    max-width: 350px;
 }
